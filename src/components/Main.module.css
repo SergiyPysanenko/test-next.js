@@ -1,0 +1,81 @@
+/* .sectionMain {
+    height: 848px;
+    background-color: #232536;
+    margin: auto;
+    color: #FFF;
+};
+
+.main{
+    margin: 0;
+}
+
+.mainWrapper {
+    box-sizing: border-box;
+    width: 624px;
+    height: 204px;
+
+}
+
+.mainWrapperP {
+    box-sizing: border-box;
+    width: 528px;
+    height: 48px;
+    gap: 20px;
+
+}
+
+.sectionText {
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 68px;
+    margin: 0;
+   
+}
+
+.text_p {
+    text-decoration: none;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+.image_main {
+    box-sizing: border-box;
+} */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionMain {
+    flex: 1;
+}
+
+.sectionText {
+    text-align: left;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 20px; /* Додайте потрібний відступ між текстом і картинкою */
+}
+
+.text_p {
+    text-align: left;
+    text-decoration: none;
+}
+
+.image_main {
+    max-width: 100%;
+}
