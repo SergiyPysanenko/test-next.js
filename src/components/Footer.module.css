@@ -1,0 +1,24 @@
+.footer_section {
+    background-color: #FFE6D2;
+    height: 80px;
+}
+
+.span_logo{
+    margin-left: 160px;
+    margin-top: 28px;
+    margin-right: 1320px;
+    color:red;
+}
+
+.link_fb{
+    margin-top: 28px;
+    margin-right: 15px;
+    color: blue;
+
+}
+
+.link_ig{
+    margin-top: 28px;
+    color: purple;
+    
+}
